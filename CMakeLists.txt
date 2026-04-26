@@ -4,3 +4,4 @@ project(Lab5PO)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Lab5PO main.cpp)
+target_link_libraries(Lab5PO ws2_32)
